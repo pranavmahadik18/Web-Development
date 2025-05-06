@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Form tag</title>
+</head>
+
+<body bgcolor="skyblue">
+
+	<h2>Student Details</h2>
+    <form action="/submit" method="post">
+	<lable for="name">Full name : </lable><br>
+	<input type="text" id="name" required placeholder="name"><br><br>
+
+	<lable for="Email">Email : </lable><br>
+	<input type="text" id="Email" required placeholder="email"><br><br>
+
+	<lable for="Passward">Passward : </lable><br>
+	<input type="text" id="Passward" required placeholder="passward"><br><br>
+
+	<label for="Collage">Collage:</label>
+        <select id="Collage">
+            <option value="D.Y.Patil">D.Y.Patil</option>
+            <option value="KIT">KIT</option>
+            <option value="DKITE">DKITE</option>
+	    <option value="RIT">RIT</option>
+	    <option value="Walchand">Walchand</option>
+        </select><br><br>
+
+	<lable for="Gender">Gender : </lable><br>
+	<label>
+            <input type="radio" name="gender" value="male"> Male
+	</label><br>
+        <label>
+            <input type="radio" name="gender" value="female"> Female
+        </label><br>
+        <label>
+            <input type="radio" name="gender" value="other"> Other
+        </label><br><br>
+
+
+
+	<input type="submit" value="Submit">
+    </form>
+
+	
+</body>
+</html>
